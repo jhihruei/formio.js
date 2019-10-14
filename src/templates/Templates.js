@@ -10,7 +10,7 @@ export default class Templates {
   }
 
   static addTemplate(name, template) {
-    Templates.templates[name] = template;
+    Templates.current[name] = template;
   }
 
   static extendTemplate(name, template) {
